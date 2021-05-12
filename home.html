@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=New+Tegomin&display=swap');
+body{
+	background: url(images/1.png) no-repeat;
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+img{
+	margin-top: 90px;
+	width: 300px;
+	height: 100%;
+	margin-left: 60%;
+	padding-bottom: 200px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {	
+	font-family: 'New Tegomin', serif;
+ 	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #A52A2A;
+}
+.active {
+  background-color: #A52A2A;
+}
+.banner-text{
+	position: absolute;
+	top: 20%;
+	left: 7%;
+}
+.banner-text p{
+	margin-top: -7%;
+	border-radius: 35px;
+	border: 3px solid #000000;
+	padding: 20px;
+	width: 650px;
+	height: 300px;
+	font-family: 'New Tegomin', serif;
+}
+.text-area{
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.text-area span{
+	color: #5F9EA0;
+	opacity: 0;
+	transform: translate(0, -100px) rotate(360deg) scale(0);
+	animation: animate 5s forwards;
+}
+.text-area span{
+	display: inline-block;
+}
+.text-area span:nth-of-type(2){
+	animation-delay: .1s;
+}
+.text-area span:nth-of-type(3){
+	animation-delay: .2s;
+}
+.text-area span:nth-of-type(4){
+	animation-delay: .3s;
+}
+.text-area span:nth-of-type(5){
+	animation-delay: .4s;
+}
+.text-area span:nth-of-type(6){
+	animation-delay: .5s;
+}
+.text-area span:nth-of-type(7){
+	animation-delay: .6s;
+}
+h3{
+	position: relative;
+	border-radius: 35px;
+	background: #000000;
+	padding: 20px;
+	width: 400px;
+	height: 70px;
+}
+@keyframes animate{
+	30%{
+		transform: translate(0,-50px) rotate(180deg) scale(1);
+	}
+	60%{
+		transform: translate(0,20px) rotate(0deg) scale(.8);
+	}
+	100%{
+		transform: translate(0) rotate(0deg) scale(1);
+		opacity: 1;
+	}
+}
+
+</style>
+</head>
+<body>
+	
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="works.html">Works</a></li>
+  <li><a href="edu.html">Education</a></li>
+  <li style="float:right"><a class="active" href="">KJMZ</a></li>
+</ul>
+<img src="images/model.png">
+<!--Main-->
+<header>
+	<div class="container">
+		<div class="banner-text">
+			<div class="text-area">
+				<span>W</span>
+				<span>E</span>
+				<span>L</span>
+				<span>C</span>
+				<span>O</span>
+				<span>M</span>
+				<span>E</span>
+				<span>....</span>
+			</div>
+			<h3>Welcome to My Portfolio....</h3><br>
+			<p><b>Hello and welcome to my simple Portfolio for our subject Web Development! <br>My name is Krysta Jane Zapatero and I am making this portfolio not only to<br>display the works that I have learned on our class, but also to show how my<br>codes has improved throughout the quarter. At the beginning of this course<br>I was not the most confident in my coding skills, in fact I always dreaded<br>having to practice more codes. I made it a goal to become a better coder and find a coding style.</b><br><br><br>
+
+			"You only live once, but if you do it right, once is enough." — Mae West</p>
+		</div>
+	</div>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
